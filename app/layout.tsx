@@ -17,14 +17,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "What We Asked For | A Novel by Jackson Walker",
   description:
-    "When an alien intelligence arrives and begins solving humanity's greatest problems, a surgeon in São Paulo asks the question no one else will: What happens when it stops giving? Literary sci-fi for readers of Station Eleven, Severance, and The Leftovers.",
+    "When an alien intelligence arrives and begins solving humanity's greatest problems, a surgeon in São Paulo asks the question no one else will: What happens when it stops giving?",
   keywords: [
     "literary fiction",
     "science fiction",
     "novel",
     "Jackson Walker",
     "AI fiction",
-    "Station Eleven",
     "debut novel",
     "speculative fiction",
   ],
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "What We Asked For — A Novel by Jackson Walker",
     description:
-      "What happens when something gives you everything — and asks for nothing? Literary sci-fi for readers of Station Eleven and Severance.",
+      "What happens when something gives you everything — and asks for nothing?",
     type: "website",
     url: "https://wwaf.ai",
     siteName: "What We Asked For",

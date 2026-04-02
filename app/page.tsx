@@ -57,9 +57,7 @@ export default function Home() {
           <p className="tagline-animate text-lg md:text-xl font-light text-stone-300 max-w-2xl mx-auto leading-relaxed italic">
             What happens when something gives you everything — and asks for nothing?
           </p>
-          <p className="comps-animate mt-8 text-sm tracking-widest uppercase text-stone-500 font-sans">
-            For readers of Station Eleven · Severance · The Leftovers · Devs
-          </p>
+
         </div>
       </section>
 
