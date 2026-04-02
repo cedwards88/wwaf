@@ -1,0 +1,37 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "whatweaskedfor.com"
+        }
+      ],
+      "destination": "https://wwaf.ai/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.whatweaskedfor.com"
+        }
+      ],
+      "destination": "https://wwaf.ai/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.wwaf.ai"
+        }
+      ],
+      "destination": "https://wwaf.ai/$1",
+      "permanent": true
+    }
+  ]
+}
