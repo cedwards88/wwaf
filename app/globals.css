@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  /* Literary color palette */
+  --background: #0a0a0a;        /* near-black */
+  --foreground: #e8e0d4;        /* warm off-white */
+  --accent: #c4a35a;            /* muted gold */
+  --secondary: #6b6b6b;         /* cool gray */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
+/* Subtle animation for title glow */
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.title-glow {
+  animation: glow 4s ease-in-out infinite;
+}
+
+/* Reading styles for chapter content */
+.chapter-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.chapter-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Quote styling */
+.pull-quote {
+  position: relative;
+  isolation: isolate;
+}
+
+.pull-quote::before {
+  content: '"';
+  position: absolute;
+  left: -2rem;
+  top: -1rem;
+  font-size: 4rem;
+  color: var(--accent);
+  opacity: 0.3;
+  font-family: var(--font-serif);
+}
