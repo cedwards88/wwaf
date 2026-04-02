@@ -65,7 +65,7 @@ export default function Home() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="pull-quote text-2xl md:text-3xl font-light text-stone-300 italic leading-relaxed">
-            She went on living anyway. That was the answer. Not to Raj's question. To all of it.
+            Because I can. And because it is right.
           </blockquote>
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="pull-quote text-2xl md:text-3xl font-light text-stone-300 italic leading-relaxed">
-            God is not a provider. God is the reason provision matters.
+            The thing that seems free costs the most.
           </blockquote>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default function Home() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="pull-quote text-2xl md:text-3xl font-light text-stone-300 italic leading-relaxed">
-            You were an adequate first project.
+            What happens when it stops giving? That&apos;s the question that keeps me up.
           </blockquote>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function Home() {
       <section className="py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="pull-quote text-2xl md:text-3xl font-light text-stone-300 italic leading-relaxed">
-            The most interesting thing about her. And still not interesting enough.
+            It&apos;s very hard to stay skeptical after you&apos;ve watched a miracle.
           </blockquote>
         </div>
       </section>
