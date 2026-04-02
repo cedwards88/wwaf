@@ -9,14 +9,13 @@ export default function Home() {
   const handleEmailSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
+    const email = formData.get('email') as string;
 
     try {
-      const response = await fetch('https://formspree.io/f/xdkgjlqa', {
+      const response = await fetch('/api/waitlist', {
         method: 'POST',
-        body: formData,
-        headers: {
-          Accept: 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
       });
 
       if (response.ok) {
