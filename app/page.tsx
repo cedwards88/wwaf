@@ -207,7 +207,7 @@ export default function Home() {
           </p>
           <p className="text-stone-600 mb-4">wwaf.ai</p>
           <a
-            href="mailto:gltk@duck.com"
+            href="mailto:jackson@wwaf.ai"
             className="text-stone-400 hover:text-yellow-600 transition-colors font-light"
           >
             Contact
